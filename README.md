@@ -12,11 +12,11 @@
 - [x] 6. Variables
 - [x] 7. Strings - Working with Text
 - [x] 8. User Input
-- [ ] 9. Binary Numbers and Computer Memory
-- [ ] 10. Integer Types
-- [ ] 11. Floating Point Types
-- [ ] 12. Other Types: Char and Bool
-- [ ] 13. If
+- [x] 9. Binary Numbers and Computer Memory
+- [x] 10. Integer Types
+- [x] 11. Floating Point Types
+- [x] 12. Other Types: Char and Bool
+- [x] 13. If
 - [ ] 14. If-Else
 - [ ] 15. If-Else If-Else
 - [ ] 16. Comparing Floats
