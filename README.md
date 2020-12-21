@@ -17,10 +17,10 @@
 - [x] 11. Floating Point Types
 - [x] 12. Other Types: Char and Bool
 - [x] 13. If
-- [ ] 14. If-Else
-- [ ] 15. If-Else If-Else
-- [ ] 16. Comparing Floats
-- [ ] 17. C++ Conditions
+- [x] 14. If-Else
+- [x] 15. If-Else If-Else
+- [x] 16. Comparing Floats
+- [x] 17. C++ Conditions
 - [ ] 18. While Loops
 - [ ] 19. Do-While Loops
 - [ ] 20. "For" Loops
