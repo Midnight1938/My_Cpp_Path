@@ -3,6 +3,8 @@
 using namespace std;
 
 /*
+* calm down its a Multiline comment
+
 * == Equal
 * != not equal
 * < less than
@@ -66,6 +68,8 @@ int main()
         cout << "Condition 4 (Val2 != 8 && Val1 == 3 || Val1 > 7):\n False\n"
              << endl;
     }
+
+    // Bool Statements for fun
     bool Condition1 = (Val2 != 8) && (Val1 == 10);
     cout << "Bool Cond1 [(Val2 != 8) && (Val1 == 10)]: ---->\t " << Condition1 << endl;
 
@@ -80,7 +84,7 @@ int main()
     {
         cout << "\nBool thing Condition 5: False" << endl;
     }
-
+    // Using two If statements
     if (Val1 + Val2 == 11)
     {
         if (Condition2)
