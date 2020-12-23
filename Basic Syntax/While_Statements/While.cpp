@@ -8,7 +8,7 @@ int main()
 
     while (i <= 10)
     {
-        cout << "Infiniteeee, na, " << i << " times" << endl;
+        cout << "Infiniteeee, nah, " << i << " times" << endl;
         i++; //* Better than i = i+1
              //* Equivalent to i += 1 in Python
     }
