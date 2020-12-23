@@ -21,7 +21,7 @@
 - [x] 15. If-Else If-Else
 - [x] 16. Comparing Floats
 - [x] 17. C++ Conditions
-- [ ] 18. While Loops
+- [x] 18. While Loops
 - [ ] 19. Do-While Loops
 - [ ] 20. "For" Loops
 - [ ] 21. Break and Continue
