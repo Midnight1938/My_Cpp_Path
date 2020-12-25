@@ -22,9 +22,9 @@
 - [x] 16. Comparing Floats
 - [x] 17. C++ Conditions
 - [x] 18. While Loops
-- [ ] 19. Do-While Loops
-- [ ] 20. "For" Loops
-- [ ] 21. Break and Continue
+- [x] 19. Do-While Loops
+- [x] 20. "For" Loops
+- [x] 21. Break and Continue
 - [ ] 22. Arrays - Lists of Data
 - [ ] 23. Multidimensional Arrays
 - [ ] 24. Sizeof and Arrays
