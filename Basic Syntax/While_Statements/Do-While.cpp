@@ -12,6 +12,8 @@ int main()
         Val++;
     } while (Val <= 10); // Checks
 
+// A password Cheker
+
     const string Password = "Pas5w0rd!"; // Const makes it Global-y
 
     cout << "\n\nChecking for right password.........." << endl;
@@ -28,7 +30,7 @@ int main()
         {
             cout << "Access Denied" << endl;
         }
-    } while (Pword != Password);
+    } while (Pword != Password); // We did the 'Do' loop while this was true
 
     cout
         << "\nAccess Granted"
