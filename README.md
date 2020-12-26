@@ -2,6 +2,10 @@
 
 ## Wonderful program stash has stuff for the following stuff
 
+- [x] 1. [Setting Up C++ dependencies](https://code.visualstudio.com/docs/cpp/config-linux)
+- [x] 2. Initialising Runs (formulahendry.code-runner)
+- [x] 3. VS Code dependencies (ms-vscode.cpptools-extension-pack)
+
 ### **Section 1: Getting Started:**
 
 - [x] 4. Hello World C++
@@ -26,7 +30,7 @@
 - [x] 20. "For" Loops
 - [x] 21. Break and Continue
 - [x] 22. Arrays - Lists of Data
-- [ ] 23. Multidimensional Arrays
+- [x] 23. Multidimensional Arrays
 - [ ] 24. Sizeof and Arrays
 - [ ] 25. Sizeof Multidimensional Arrays
 - [ ] 26. Switch
