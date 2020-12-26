@@ -25,7 +25,7 @@
 - [x] 19. Do-While Loops
 - [x] 20. "For" Loops
 - [x] 21. Break and Continue
-- [ ] 22. Arrays - Lists of Data
+- [x] 22. Arrays - Lists of Data
 - [ ] 23. Multidimensional Arrays
 - [ ] 24. Sizeof and Arrays
 - [ ] 25. Sizeof Multidimensional Arrays
