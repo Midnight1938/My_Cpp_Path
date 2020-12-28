@@ -31,8 +31,8 @@
 - [x] 21. Break and Continue
 - [x] 22. Arrays - Lists of Data
 - [x] 23. Multidimensional Arrays
-- [ ] 24. Sizeof and Arrays
-- [ ] 25. Sizeof Multidimensional Arrays
+- [x] 24. Sizeof and Arrays
+- [x] 25. Sizeof Multidimensional Arrays
 - [ ] 26. Switch
 
 ### **Section 3: Subroutines: Reusable Blocks of Code**
