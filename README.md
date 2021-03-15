@@ -33,7 +33,7 @@
 - [x] 23. Multidimensional Arrays
 - [x] 24. Sizeof and Arrays
 - [x] 25. Sizeof Multidimensional Arrays
-- [x] 26. Switch
+- [x] 26. Switches
 
 ### **Section 3: Subroutines: Reusable Blocks of Code**
 
