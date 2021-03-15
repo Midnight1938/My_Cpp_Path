@@ -33,11 +33,11 @@
 - [x] 23. Multidimensional Arrays
 - [x] 24. Sizeof and Arrays
 - [x] 25. Sizeof Multidimensional Arrays
-- [ ] 26. Switch
+- [x] 26. Switch
 
 ### **Section 3: Subroutines: Reusable Blocks of Code**
 
-- [ ] 27. Functions
+- [x] 27. Functions
 - [ ] 28. Return Values
 - [ ] 29. Function Parameters
 - [ ] 30. Headers and Prototypes
