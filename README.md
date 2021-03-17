@@ -1,5 +1,5 @@
-# This
-
+# Index
+[**How to Compile A Class**](https://github.com/Midnight1938/My_Cpp_Path/blob/master/Compiling%20Classes.md)
 ## Wonderful program stash has stuff for the following stuff
 
 - [x] 1. [Setting Up C++ dependencies](https://code.visualstudio.com/docs/cpp/config-linux)
@@ -44,7 +44,7 @@
 
 ### **Section 4: Object Oriented Coding:**
 
-- [ ] 31. Classes
+- [x] 31. Classes
 - [ ] 32. Data Members
 - [ ] 33. C++ Constructors and Destructors
 - [ ] 34. C++ Getters and Setters
