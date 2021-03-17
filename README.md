@@ -38,9 +38,9 @@
 ### **Section 3: Subroutines: Reusable Blocks of Code**
 
 - [x] 27. Functions
-- [ ] 28. Return Values
-- [ ] 29. Function Parameters
-- [ ] 30. Headers and Prototypes
+- [x] 28. Return Values
+- [x] 29. Function Parameters
+- [x] 30. Headers and Prototypes
 
 ### **Section 4: Object Oriented Coding:**
 
