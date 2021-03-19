@@ -46,8 +46,8 @@
 ### **Section 4: Object Oriented Coding:**
 
 - [x] 31. Classes
-- [ ] 32. Data Members
-- [ ] 33. C++ Constructors and Destructors
+- [x] 32. Data Members
+- [x] 33. C++ Constructors and Destructors
 - [ ] 34. C++ Getters and Setters
 - [ ] 35. C++ String Streams
 - [ ] 36. Overloading Constructors
