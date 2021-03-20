@@ -48,8 +48,8 @@
 - [x] 31. Classes
 - [x] 32. Data Members
 - [x] 33. C++ Constructors and Destructors
-- [ ] 34. C++ Getters and Setters
-- [ ] 35. C++ String Streams
+- [x] 34. C++ Getters and Setters
+- [x] 35. C++ String Streams
 - [ ] 36. Overloading Constructors
 - [ ] 37. The "this" Keyword
 - [ ] 38. Constructor Initialization Lists
