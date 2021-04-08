@@ -50,9 +50,9 @@
 - [x] 33. C++ Constructors and Destructors
 - [x] 34. C++ Getters and Setters
 - [x] 35. C++ String Streams
-- [ ] 36. Overloading Constructors
-- [ ] 37. The "this" Keyword
-- [ ] 38. Constructor Initialization Lists
+- [x] 36. Overloading Constructors
+- [x] 37. The "this" Keyword
+- [x] 38. Constructor Initialization Lists
 
 ### **Section 5: Pointers and Memory:**
 
