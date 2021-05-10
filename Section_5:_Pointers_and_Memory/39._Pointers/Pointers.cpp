@@ -10,7 +10,7 @@ using namespace std;
     2. Val of double in manipulate: 123.4
     3. Val of double in manipulate: 10
     4. dValue: 123.4
-? But by using pointers we are able to use the same memory address
+! But By using pointers we are able to use the same memory address
 */
 
 void manipulate(double *pvalue) //turned into a pointer

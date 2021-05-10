@@ -56,8 +56,8 @@
 
 ### **Section 5: Pointers and Memory:**
 
-- [ ] 39. Pointers
-- [ ] 40. Arithmetic
+- [x] 39. Pointers
+- [x] 40. Arithmetic
 - [ ] 41. Pointers and Arrays
 - [ ] 42. Pointer Arithmetic
 - [ ] 43. Char Arrays
