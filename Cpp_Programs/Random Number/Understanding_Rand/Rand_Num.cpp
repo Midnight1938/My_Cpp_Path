@@ -13,16 +13,16 @@ using namespace std;
 
 int main()
 {
-//list<int> Sames_List; //* A list for the same numbers
+    //list<int> Sames_List; //* A list for the same numbers
 
-    cout << "As you can see, its always the same:\t"<< flush;
+    cout << "As you can see, its always the same:\t" << flush;
     for (int i = 1; i <= 5; i++)
     {
         cout << (rand() % 5) + 1 << flush; //* using rand to generate a number 0 to 5 but always the same numbers
     }
 
     With_sRand Example; //? Example of what happens with sRand
-    cout << "\nWhile the one using sRand is always different:\t"<< flush;
+    cout << "\nWhile the one using sRand is always different:\t" << flush;
     Example.sRand_Magic();
     cout << "\n\nFIN" << endl;
     return 0;
