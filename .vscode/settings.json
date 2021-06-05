@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "*.html": "html",
-        "ostream": "cpp"
+        "*.rmd": "markdown",
+        "ostream": "cpp",
+        "list": "cpp"
     }
 }
