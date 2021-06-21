@@ -24,7 +24,7 @@ int main()
     cout << *pTexts << "\n"
          << endl;
 
-    string *pEnd = &texts[nStrings];
+    string *pEnd = &texts[nStrings]; //! Identical to ptexts but used with & for clarity for machine
     pTexts = &texts[0];
 
     while (pTexts != pEnd)
@@ -33,9 +33,9 @@ int main()
         pTexts++;
     }
     cout<<"\n"<<endl;
+
     //* Setting P back
     pTexts = &texts[0];
-
     long Elements = (long)(pEnd - pTexts); // ? Long prevents possible overflows
     cout << Elements <<"\n"<< endl;
 
