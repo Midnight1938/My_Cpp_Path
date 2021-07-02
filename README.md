@@ -58,10 +58,10 @@
 
 - [x] 39. Pointers
 - [x] 40. Arithmetic
-- [ ] 41. Pointers and Arrays
-- [ ] 42. Pointer Arithmetic
-- [ ] 43. Char Arrays
-- [ ] 44. Reversing a String
+- [x] 41. Pointers and Arrays
+- [x] 42. Pointer Arithmetic
+- [x] 43. Char Arrays
+- [x] 44. Reversing a String
 - [ ] 45. References
 - [ ] 46. The "const" Keyword
 - [ ] 47. Copy Constructors
