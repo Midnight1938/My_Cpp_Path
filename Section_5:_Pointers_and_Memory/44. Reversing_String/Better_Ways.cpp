@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-*
+* A way to reverse a string that isnt an array, with homebrew and with module
 */
 
 void revStr(string &strg)
