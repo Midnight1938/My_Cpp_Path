@@ -7,7 +7,7 @@ using namespace std;
 * Useful when we want to reduce bug chances
 */
 
-class Animal //? Just tused a Class rightr here instead of the header file (.h) and going via via
+class Animal //? Used calss here isntead of going via header file since itse a small class and hence, not worth it
 {
 private:
     string name;
