@@ -62,8 +62,8 @@
 - [x] 42. Pointer Arithmetic
 - [x] 43. Char Arrays
 - [x] 44. Reversing a String
-- [ ] 45. References
-- [ ] 46. The "const" Keyword
+- [x] 45. References
+- [x] 46. The "const" Keyword
 - [ ] 47. Copy Constructors
 - [ ] 48. The New Operator
 - [ ] 49. Returning Objects from Functions
