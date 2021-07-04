@@ -64,9 +64,9 @@
 - [x] 44. Reversing a String
 - [x] 45. References
 - [x] 46. The "const" Keyword
-- [ ] 47. Copy Constructors
-- [ ] 48. The New Operator
-- [ ] 49. Returning Objects from Functions
+- [x] 47. Copy Constructors
+- [x] 48. The New Operator
+- [x] 49. Returning Objects from Functions
 - [ ] 50. Allocating Memory
 - [ ] 51. Arrays and Functions
 - [ ] 52. Namespaces
