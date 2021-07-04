@@ -7,7 +7,7 @@ using namespace std;
 * Useful when we want to reduce bug chances
 */
 
-class Animal //? Used calss here isntead of going via header file since itse a small class and hence, not worth it
+class Animal //? Used class here isntead of going via header file since itse a small class and hence, not worth it
 {
 private:
     string name;
