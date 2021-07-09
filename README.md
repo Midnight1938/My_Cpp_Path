@@ -67,9 +67,9 @@
 - [x] 47. Copy Constructors
 - [x] 48. The New Operator
 - [x] 49. Returning Objects from Functions
-- [ ] 50. Allocating Memory
-- [ ] 51. Arrays and Functions
-- [ ] 52. Namespaces
+- [x] 50. Allocating Memory
+- [x] 51. Arrays and Functions
+- [x] 52. Namespaces
 
 ### **Section 6: Inheritance:**
 
