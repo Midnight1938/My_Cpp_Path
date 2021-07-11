@@ -73,14 +73,14 @@
 
 ### **Section 6: Inheritance:**
 
-- [ ] 53. Inheritance
-- [ ] 54. Encapsulation
-- [ ] 55. Constructor Inheritance
+- [x] 53. Inheritance
+- [x] 54. Encapsulation
+- [x] 55. Constructor Inheritance
 
 ### **Section 7: Odds and Ends: Twos Complement :and Static Variables**
 
-- [ ] 56. Twos Complement
-- [ ] 57. Static Keyword
+- [x] 56. Twos Complement
+- [x] 57. Static Keyword
 
 ### **Section 8: Developing a Program: The :Particle Fire Simulation**
 
