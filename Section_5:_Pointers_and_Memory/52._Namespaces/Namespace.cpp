@@ -23,9 +23,9 @@ int main()
     cout << "Using namespace Cats: \t\t" << flush;
     Hexa.speak();
 
-    altCat::Cat Mesha;
+    altCat::Cat Misha;
     cout << "Using namespace altCat: \t" << flush;
-    Mesha.speak();
+    Misha.speak();
 
     cout << "Dafault Cat namespace: \t\t" << CATNAME << endl;
 
