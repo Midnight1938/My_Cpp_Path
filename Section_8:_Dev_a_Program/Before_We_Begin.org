@@ -2,31 +2,36 @@
 #+AUTHOR: Skshm
 #+DATE: <2021-07-17 Sat>
 
-* About Libraries
+** About Libraries
 
-** Normal Libaraies: What we build
+*** Normal Libaraies: What we build
 - Preprocessed, Require Compilation (.o), link (.exe, no suffix)
 
-** Static (link) Libraries: Files with C++ code
+*** Static (link) Libraries: Files with C++ code
 + Compiled into a binary file (static Library), which we can link to our program to create an executable with code pre compiled in it
 + Can point to Dynamic Library
 + In Different OS:
   + Windows: `XYZ.lib`
   + Unix: `libXYZ.a`
 
-** Dynamic Library: Finds Code at runtime
+*** Dynamic Library: Finds Code at runtime
 + Contains code the program finds while running (eg, cout)
 + In Different OS:
   + Windows: `XYZ.dll`
   + Unix: `libXYZ.so`
     + Mac exclusive: `XYZ.dylib`
 
-* LIBSDL: Simple DirectMedia Layer
-** What it is:
+** LIBSDL: Simple DirectMedia Layer
+*** What it is:
 + A cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
 + Also uses Dynamic Libraries, though its also possibl eto link this with static libraries, which is why we often need installets
   + But we dont need to worry about it as we just have 3 main files
     - =Header=
     - =Static Library= to link =Dynamic Library=
-** Installing Via: https://www.libsdl.org
-*** Refer to Library Type to identify  the type of file we may need
+*** Installing Via: https://www.libsdl.org
+**** Refer to Library Type to identify  the type of file we may need
+**** In Linux:
+#+BEGIN_SRC bash
+Fedora: sudo dnf install SDL2-devel
+Debian: sudo apt install libsdl2-devel
+#+END_SRC
