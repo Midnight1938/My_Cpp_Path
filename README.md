@@ -9,7 +9,7 @@
 - [x] 2. Initialising Runs (formulahendry.code-runner)
 - [x] 3. VS Code dependencies (ms-vscode.cpptools-extension-pack)
 
-### ****Section 1: Getting Started:**
+### **Section 1: Getting Started:**
 
 - [x] 4. Hello World C++
 - [x] 5. Outputting Text
@@ -55,8 +55,8 @@
 - [x] 36. Overloading Constructors
 - [x] 37. The "this" Keyword
 - [x] 38. Constructor Initialization Lists
-
 ### **Section 5: Pointers and Memory:**
+
 
 - [x] 39. Pointers
 - [x] 40. Arithmetic
