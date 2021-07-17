@@ -1,0 +1,122 @@
+#+TITLE: Learning Path and Important Commands
+
+** Extra Info:
+[How to Compile A Class](https://github.com/Midnight1938/My_Cpp_Path/blob/master/Compiling%20Classes.md)
+
+** Wonderful program stash has stuff for the following stuff
+
+- [X] 1. [Setting Up C++ dependencies](https://code.visualstudio.com/docs/cpp/config-linux)
+- [X] 2. Initialising Runs (formulahendry.code-runner)
+- [X] 3. VS Code dependencies (ms-vscode.cpptools-extension-pack)
+
+** [Section 1: Getting Started:](https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_1:_First_steps)
+
+- [X] 4. Hello World C++
+- [X] 5. Outputting Text
+
+** Section 2: Basic Syntax:
+
+- [X] 6. Variables
+- [X] 7. Strings - Working with Text
+- [X] 8. User Input
+- [X] 9. Binary Numbers and Computer Memory
+- [X] 10. Integer Types
+- [X] 11. Floating Point Types
+- [X] 12. Other Types: Char and Bool
+- [X] 13. If
+- [X] 14. If-Else
+- [X] 15. If-Else If-Else
+- [X] 16. Comparing Floats
+- [X] 17. C++ Conditions
+- [X] 18. While Loops
+- [X] 19. Do-While Loops
+- [X] 20. "For" Loops
+- [X] 21. Break and Continue
+- [X] 22. Arrays - Lists of Data
+- [X] 23. Multidimensional Arrays
+- [X] 24. Sizeof and Arrays
+- [X] 25. Sizeof Multidimensional Arrays
+- [X] 26. Switches
+
+** Section 3: Subroutines: Reusable Blocks of Code
+
+- [X] 27. Functions
+- [X] 28. Return Values
+- [X] 29. Function Parameters
+- [X] 30. Headers and Prototypes
+
+** Section 4: Object Oriented Coding:
+
+- [X] 31. Classes
+- [X] 32. Data Members
+- [X] 33. C++ Constructors and Destructors
+- [X] 34. C++ Getters and Setters
+- [X] 35. C++ String Streams
+- [X] 36. Overloading Constructors
+- [X] 37. The "this" Keyword
+- [X] 38. Constructor Initialization Lists
+
+** Section 5: Pointers and Memory:
+
+- [X] 39. Pointers
+- [X] 40. Arithmetic
+- [X] 41. Pointers and Arrays
+- [X] 42. Pointer Arithmetic
+- [X] 43. Char Arrays
+- [X] 44. Reversing a String
+- [X] 45. References
+- [X] 46. The "const" Keyword
+- [X] 47. Copy Constructors
+- [X] 48. The New Operator
+- [X] 49. Returning Objects from Functions
+- [X] 50. Allocating Memory
+- [X] 51. Arrays and Functions
+- [X] 52. Namespaces
+
+** Section 6: Inheritance:
+
+- [X] 53. Inheritance
+- [X] 54. Encapsulation
+- [X] 55. Constructor Inheritance
+
+** Section 7: Odds and Ends: Twos Complement :and Static Variables**
+
+- [X] 56. Twos Complement
+- [X] 57. Static Keyword
+
+** Section 8: Developing a Program: The :Particle Fire Simulation
+
+- [X] 58. Particle Fire Explosion
+- [X] 59. Using C++ Libraries
+- [ ] 60. Aquiring Simple Direct Media Layer
+- [ ] 61. A Basic SDL Program
+- [ ] 62. Creating an SDL Window
+- [ ] 63. Textures, Renderers and Buffers
+- [ ] 64. Setting Pixel Colors
+- [ ] 65. Creating the Screen Class
+- [ ] 66. Bit Shifting and Colors
+- [ ] 67. Adding a Set Pixel Method
+- [ ] 68. Animating Colors
+- [ ] 69. Creating Particles
+- [ ] 70. Animating Particles
+- [ ] 71. Creating an Explosion
+- [ ] 72. Ensuring Constant Speed
+- [ ] 73. Bitwise "And"
+- [ ] 74. Implementing Box Blur
+- [ ] 75. Tweaking Particle Motion
+
+** Section 9: Conclusion:
+
+- [ ] 76. Languages Overview
+- [ ] 77. What Next
+
+** Section 10: Bonus:
+
+- [ ] 78. Object Oriented Design Considerations
+- [ ] 79. Postfix and Prefix
+- [ ] 80. Polymorphism
+- [ ] 81. Creating Static
+
+** Section 11: Advanced C++!:
+
+- [ ] 82. Congratulations, and an Advanced C++ Course
