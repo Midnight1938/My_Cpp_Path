@@ -1,4 +1,5 @@
-#+TITLE: Learning Path and Important Commands
+#+title: Learning Path and Important Commands
+#+author: Skshm
 
 ** Extra Info:
 [How to Compile A Class](https://github.com/Midnight1938/My_Cpp_Path/blob/master/Compiling%20Classes.md)
