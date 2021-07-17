@@ -1,6 +1,6 @@
-#+title: Basics, before we make the program
-#+author: Skshm
-#+date: <2021-07-15 Thu>
+#+TITEL: Basics, before we make the program
+#+AUTHOR: Skshm
+#+DATE: <2021-07-17 Sat>
 
 * About Libraries
 
