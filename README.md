@@ -1,3 +1,5 @@
+#+TITLE: Learning Path and Important Commands
+
 # Index
 [**How to Compile A Class**](https://github.com/Midnight1938/My_Cpp_Path/blob/master/Compiling%20Classes.md)
 
@@ -7,7 +9,7 @@
 - [x] 2. Initialising Runs (formulahendry.code-runner)
 - [x] 3. VS Code dependencies (ms-vscode.cpptools-extension-pack)
 
-### **Section 1: Getting Started:**
+### ****Section 1: Getting Started:**
 
 - [x] 4. Hello World C++
 - [x] 5. Outputting Text
@@ -84,8 +86,8 @@
 
 ### **Section 8: Developing a Program: The :Particle Fire Simulation**
 
-- [ ] 58. Particle Fire Explosion
-- [ ] 59. Using C++ Libraries
+- [x] 58. Particle Fire Explosion
+- [x] 59. Using C++ Libraries
 - [ ] 60. Aquiring Simple Direct Media Layer
 - [ ] 61. A Basic SDL Program
 - [ ] 62. Creating an SDL Window

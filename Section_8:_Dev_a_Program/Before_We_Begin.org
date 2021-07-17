@@ -4,17 +4,17 @@
 
 * About Libraries
 
-* * Normal Libaraies: What we build
+** Normal Libaraies: What we build
 - Preprocessed, Require Compilation (.o), link (.exe, no suffix)
 
-* * Static (link) Libraries: Files with C++ code
+** Static (link) Libraries: Files with C++ code
 - Compiled into a binary file (static Library), which we can link to our program to create an executable with code pre compiled in it
 - Can point to Dynamic Library
 - In Different OS:
   + Windows: `XYZ.lib`
   + Unix: `libXYZ.a`
 
-* * Dynamic Library: Finds Code at runtime
+** Dynamic Library: Finds Code at runtime
 - Contains code the program finds while running (eg, cout)
 - In Different OS:
   + Windows: `XYZ.dll`
