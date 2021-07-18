@@ -15,7 +15,7 @@ g++ File1.cpp File2.cpp -o $Compiled_Name
   #+BEGIN_SRC bash
 g++ $File_NAME.cpp -g -pedantic -o $File_NAME -lSDL2
 g++ $File_NAME.cpp -o $File_NAME -lSDL2
-2 #+END_SRC
+#+END_SRC
 
 
 *** Whats the difference btwn =++i= and =i++=
