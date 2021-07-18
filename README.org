@@ -26,7 +26,7 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 ** Wonderful program stash has stuff for the following stuff
 
 + [[https://code.visualstudio.com/docs/cpp/config-linux][Setting Up C++ dependenciesin VSCode]]
-  - Initialising Runs (formulahendry.code-runner)
+  - Initialising Runs is in the site above, we can add lib dependencies in the tasks.json area easily
   - VS Code dependencies (ms-vscode.cpptools-extension-pack)
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_1:_First_steps][Section 1: Getting Started:]]
@@ -109,9 +109,9 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 58. Particle Fire Explosion
 + [X] 59. Using C++ Libraries
 + [X] 60. Aquiring Simple Direct Media Layer
-+ [/] 61. A Basic SDL Program
-+ [ ] 62. Creating an SDL Window
-+ [ ] 63. Textures, Renderers and Buffers
++ [X] 61. A Basic SDL Program
++ [X] 62. Creating an SDL Window
++ [/] 63. Textures, Renderers and Buffers
 + [ ] 64. Setting Pixel Colors
 + [ ] 65. Creating the Screen Class
 + [ ] 66. Bit Shifting and Colors
