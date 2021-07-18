@@ -7,14 +7,14 @@
 + Compile individual classes first
   - Then compile them all
   - Like so:
-  #+BEGIN_SRC bash
+#+BEGIN_SRC bash
 g++ File1.cpp File2.cpp -o $Compiled_Name
 #+END_SRC
 
 + How to compile with SDL:
-  #+BEGIN_SRC bash
+#+BEGIN_SRC bash
 g++ $File_NAME.cpp -g -pedantic -o $File_NAME -lSDL2
-g++ $File_NAME.cpp -o $File_NAME -lSDL2
+g++ $File_NAME.cpp -o $File_NAME -lSDL2 
 #+END_SRC
 
 
