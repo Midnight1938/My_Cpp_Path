@@ -7,7 +7,7 @@
 + Compile individual classes first
   - Then compile them all
   - Like so:
-#+BEGIN_SRC bash
+  #+BEGIN_SRC bash
 g++ File1.cpp File2.cpp -o $Compiled_Name
 #+END_SRC
 
