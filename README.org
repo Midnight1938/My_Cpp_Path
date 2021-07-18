@@ -18,92 +18,92 @@ g++ File1.cpp File2.cpp -o $Compiled_Name
 
 ** Wonderful program stash has stuff for the following stuff
 
-- [x] 1. [Setting Up C++ dependencies](https://code.visualstudio.com/docs/cpp/config-linux)
-- [x] 2. Initialising Runs (formulahendry.code-runner)
-- [x] 3. VS Code dependencies (ms-vscode.cpptools-extension-pack)
++ [X] 1. [Setting Up C++ dependencies](https://code.visualstudio.com/docs/cpp/config-linux)
++ [X] 2. Initialising Runs (formulahendry.code-runner)
++ [X] 3. VS Code dependencies (ms-vscode.cpptools-extension-pack)
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_1:_First_steps][Section 1: Getting Started:]]
 
-- [x] 4. Hello World C++
-- [x] 5. Outputting Text
++ [X] 4. Hello World C++
++ [X] 5. Outputting Text
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_2:_Basic_Syntax][Section 2: Basic Syntax:]]
 
-- [x] 6. Variables
-- [x] 7. Strings - Working with Text
-- [x] 8. User Input
-- [x] 9. Binary Numbers and Computer Memory
-- [x] 10. Integer Types
-- [x] 11. Floating Point Types
-- [x] 12. Other Types: Char and Bool
-- [x] 13. If
-- [x] 14. If-Else
-- [x] 15. If-Else If-Else
-- [x] 16. Comparing Floats
-- [x] 17. C++ Conditions
-- [x] 18. While Loops
-- [x] 19. Do-While Loops
-- [x] 20. "For" Loops
-- [x] 21. Break and Continue
-- [x] 22. Arrays - Lists of Data
-- [x] 23. Multidimensional Arrays
-- [x] 24. Sizeof and Arrays
-- [x] 25. Sizeof Multidimensional Arrays
-- [x] 26. Switches
++ [X] 6. Variables
++ [X] 7. Strings - Working with Text
++ [X] 8. User Input
++ [X] 9. Binary Numbers and Computer Memory
++ [X] 10. Integer Types
++ [X] 11. Floating Point Types
++ [X] 12. Other Types: Char and Bool
++ [X] 13. If
++ [X] 14. If-Else
++ [X] 15. If-Else If-Else
++ [X] 16. Comparing Floats
++ [X] 17. C++ Conditions
++ [X] 18. While Loops
++ [X] 19. Do-While Loops
++ [X] 20. "For" Loops
++ [X] 21. Break and Continue
++ [X] 22. Arrays - Lists of Data
++ [X] 23. Multidimensional Arrays
++ [X] 24. Sizeof and Arrays
++ [X] 25. Sizeof Multidimensional Arrays
++ [X] 26. Switches
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_3:_Subroutines][Section 3: Subroutines: Reusable Blocks of Code]]
 
-- [x] 27. Functions
-- [x] 28. Return Values
-- [x] 29. Function Parameters
-- [x] 30. Headers and Prototypes
++ [X] 27. Functions
++ [X] 28. Return Values
++ [X] 29. Function Parameters
++ [X] 30. Headers and Prototypes
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_4:_OOP][Section 4: Object Oriented Coding:]]
 
-- [x] 31. Classes
-- [x] 32. Data Members
-- [x] 33. C++ Constructors and Destructors
-- [x] 34. C++ Getters and Setters
-- [x] 35. C++ String Streams
-- [x] 36. Overloading Constructors
-- [x] 37. The "this" Keyword
-- [x] 38. Constructor Initialization Lists
++ [X] 31. Classes
++ [X] 32. Data Members
++ [X] 33. C++ Constructors and Destructors
++ [X] 34. C++ Getters and Setters
++ [X] 35. C++ String Streams
++ [X] 36. Overloading Constructors
++ [X] 37. The "this" Keyword
++ [X] 38. Constructor Initialization Lists
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_5:_Pointers_and_Memory][Section 5: Pointers and Memory:]]
 
-- [x] 39. Pointers
-- [x] 40. Arithmetic
-- [x] 41. Pointers and Arrays
-- [x] 42. Pointer Arithmetic
-- [x] 43. Char Arrays
-- [x] 44. Reversing a String
-- [x] 45. References
-- [x] 46. The "const" Keyword
-- [x] 47. Copy Constructors
-- [x] 48. The New Operator
-- [x] 49. Returning Objects from Functions
-- [x] 50. Allocating Memory
-- [x] 51. Arrays and Functions
-- [x] 52. Namespaces
++ [X] 39. Pointers
++ [X] 40. Arithmetic
++ [X] 41. Pointers and Arrays
++ [X] 42. Pointer Arithmetic
++ [X] 43. Char Arrays
++ [X] 44. Reversing a String
++ [X] 45. References
++ [X] 46. The "const" Keyword
++ [X] 47. Copy Constructors
++ [X] 48. The New Operator
++ [X] 49. Returning Objects from Functions
++ [X] 50. Allocating Memory
++ [X] 51. Arrays and Functions
++ [X] 52. Namespaces
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_6:_Inheritance][Section 6: Inheritance:]]
 
-- [x] 53. Inheritance
-- [x] 54. Encapsulation
-- [x] 55. Constructor Inheritance
++ [X] 53. Inheritance
++ [X] 54. Encapsulation
++ [X] 55. Constructor Inheritance
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_7:_Odds_n_Ends][Section 7: Odds and Ends: Twos Complement and Static Variables]]
 
-- [x] 56. Twos Complement
-- [x] 57. Static Keyword
++ [X] 56. Twos Complement
++ [X] 57. Static Keyword
 
 ** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_8:_Dev_a_Program][Section 8: Developing a Program: The Particle Fire Simulation]]
 
-- [x] 58. Particle Fire Explosion
-- [x] 59. Using C++ Libraries
-- [x] 60. Aquiring Simple Direct Media Layer
-- [x] 61. A Basic SDL Program
-+ [/] 62. Creating an SDL Window
++ [X] 58. Particle Fire Explosion
++ [X] 59. Using C++ Libraries
++ [X] 60. Aquiring Simple Direct Media Layer
++ [/] 61. A Basic SDL Program
++ [ ] 62. Creating an SDL Window
 + [ ] 63. Textures, Renderers and Buffers
 + [ ] 64. Setting Pixel Colors
 + [ ] 65. Creating the Screen Class
