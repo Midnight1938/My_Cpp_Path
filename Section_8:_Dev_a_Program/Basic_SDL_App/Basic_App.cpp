@@ -62,9 +62,9 @@ int main()
     for (int i = 0; i < Scrn_Width*Scrn_Height; i++)
     {
         //? Like memset but slow and can control which byte. Hex: 0xBBGGRR
-        buffer[i] = 0x0000FF; //! Red
-        //buffer[i] = 0x00FF00; //* Green
-        //buffer[i] = 0xFF0000; //? Blue
+        buffer[i] = 0xFF0000FF; //! Red
+        //buffer[i] = 0xFF00FF00; //* Green
+        //buffer[i] = 0xFFFF0000; //? Blue
     }
     
 
