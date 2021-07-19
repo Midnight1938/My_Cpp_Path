@@ -111,8 +111,8 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 60. Aquiring Simple Direct Media Layer
 + [X] 61. A Basic SDL Program
 + [X] 62. Creating an SDL Window
-+ [/] 63. Textures, Renderers and Buffers
-+ [ ] 64. Setting Pixel Colors
++ [X] 63. Textures, Renderers and Buffers
++ [X] 64. Setting Pixel Colors
 + [ ] 65. Creating the Screen Class
 + [ ] 66. Bit Shifting and Colors
 + [ ] 67. Adding a Set Pixel Method
