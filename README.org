@@ -113,9 +113,9 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 62. Creating an SDL Window
 + [X] 63. Textures, Renderers and Buffers
 + [X] 64. Setting Pixel Colors
-+ [ ] 65. Creating the Screen Class
-+ [ ] 66. Bit Shifting and Colors
-+ [ ] 67. Adding a Set Pixel Method
++ [X] 65. Creating the Screen Class
++ [X] 66. Bit Shifting and Colors
++ [/] 67. Adding a Set Pixel Method
 + [ ] 68. Animating Colors
 + [ ] 69. Creating Particles
 + [ ] 70. Animating Particles
