@@ -14,7 +14,7 @@ g++ File1.cpp File2.cpp -o $Compiled_Name
 + How to compile with SDL:
 #+BEGIN_SRC bash
 g++ $File_NAME.cpp -g -pedantic -o $File_NAME -lSDL2
-g++ $File_NAME.cpp -o $File_NAME -lSDL2 
+g++ $File_NAME.cpp -o $File_NAME -lSDL2
 #+END_SRC
 
 
@@ -25,7 +25,7 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 
 ** Wonderful program stash has stuff for the following stuff
 
-+ [[https://code.visualstudio.com/docs/cpp/config-linux][Setting Up C++ dependenciesin VSCode]]
++ [[https://code.visualstudio.com/docs/cpp/config-linux][Setting Up C++ dependencies in VSCode]]
   - Initialising Runs is in the site above, we can add lib dependencies in the tasks.json area easily
   - VS Code dependencies (ms-vscode.cpptools-extension-pack)
 
