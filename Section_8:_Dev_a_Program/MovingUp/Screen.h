@@ -12,8 +12,8 @@ namespace Screen_Maykr
     class Screen
     {
     public:
-        const static int Scrn_Width = 800;
-        const static int Scrn_Height = 600;
+        const static int Scrn_Width = 720;
+        const static int Scrn_Height = 480;
 
     private:
         SDL_Window *m_windoo;
