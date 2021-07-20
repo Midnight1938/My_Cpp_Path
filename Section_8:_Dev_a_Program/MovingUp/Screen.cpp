@@ -1,5 +1,4 @@
 #include "Screen.h"
-//#include "SDL2/SDL.h"
 
 /*
 * Refer to the basic Prog for information
@@ -18,7 +17,7 @@ namespace Screen_Maykr
             return false;
         }
 
-        m_windoo = SDL_CreateWindow("Particle Fire Explosion",
+        m_windoo = SDL_CreateWindow("Fiere Egg Splojan",
                                     SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, Scrn_Width,
                                     Scrn_Height, SDL_WINDOW_SHOWN);
 
@@ -47,23 +46,34 @@ namespace Screen_Maykr
             return false;
         }
 
-        Uint32 *buffer = new Uint32[Scrn_Width * Scrn_Height];
+        m_buffer = new Uint32[Scrn_Width * Scrn_Height];
 
-        memset(buffer, 0, Scrn_Width * Scrn_Height * sizeof(Uint32));
+        memset(m_buffer, 0, Scrn_Width * Scrn_Height * sizeof(Uint32));
 
-        for (int i = 0; i < Scrn_Width * Scrn_Height; i++)
-        {
-            buffer[i] = 0xFF0000FF; //! Red
-            //buffer[i] = 0xFF00FF00; //* Green
-            //buffer[i] = 0xFFFF0000; //? Blue
-        }
+        return true;
+    }
 
-        SDL_UpdateTexture(m_textur, NULL, buffer, Scrn_Width * sizeof(Uint32));
+    void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue)
+    {
+        Uint32 colour = 0;
+
+        colour += red;
+        colour <<= 8;
+        colour += green;
+        colour <<= 8;
+        colour += blue;
+        colour <<= 8;
+        colour += 0xFF;
+
+        m_buffer[(y * Scrn_Width) + x] = colour;
+    }
+
+    void Screen::Update()
+    {
+        SDL_UpdateTexture(m_textur, NULL, m_buffer, Scrn_Width * sizeof(Uint32));
         SDL_RenderClear(m_rendrer);
         SDL_RenderCopy(m_rendrer, m_textur, NULL, NULL);
         SDL_RenderPresent(m_rendrer);
-
-        return true;
     }
 
     bool Screen::processEvents()
@@ -88,5 +98,4 @@ namespace Screen_Maykr
         SDL_DestroyWindow(m_windoo);
         SDL_Quit();
     }
-
 }
