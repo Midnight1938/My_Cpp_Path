@@ -35,6 +35,10 @@ TODO: Set trigs to sin, cos, tan for funny time
 ? * (double)rand()/RAND_MAX; returns a number btwn 0 <-> 1. (2.0 *rand()) makes it 0 <-> 2. '-1' makes it -1 <-> +1
 ? ? const Particle * const getParticles() { return m_pParticles; }; Const pointer to a const particle
 ! A check for on screen check is added to setPixels
+* We update the positions of the particles by changing their coordinate values individually
+* the 'return if particles outside our limit' prevents crashes
+* * The 0.001 in random speed makes it not just give zeroes, and the 2.0 multip makes the range -1 <-> 1.
+TODO: Why does it make a box in the bottom right?
 */
 
 int main()
@@ -55,6 +59,9 @@ int main()
     while (true)
     {
         //* Update particles
+        PlayArea.clearScrn();
+        particlSwarm.swarmUpdate();
+
         //* Magic Colours
         int Run_Elapse = SDL_GetTicks();
         unsigned char red = (unsigned char)((1 + sin(Run_Elapse * 0.0002)) * 128);

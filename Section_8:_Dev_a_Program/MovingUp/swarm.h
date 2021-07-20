@@ -11,7 +11,7 @@ namespace Screen_Maykr
   class Swarm
   {
   public:
-    const static int nParticles = 5000;
+    const static int nParticles = 1000;
 
   private:
     Particle *m_pParticles;
@@ -19,6 +19,7 @@ namespace Screen_Maykr
   public:
     Swarm();
     virtual ~Swarm();
+    void swarmUpdate();
 
     const Particle * const getParticles() { return m_pParticles; };
   };

@@ -27,6 +27,7 @@ namespace Screen_Maykr
         void Update();
         void setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue);
         bool processEvents();
+        void clearScrn();
         void close();
     };
 

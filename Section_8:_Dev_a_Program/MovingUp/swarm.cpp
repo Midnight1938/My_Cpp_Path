@@ -11,4 +11,11 @@ namespace Screen_Maykr
     {
         delete[] m_pParticles;
     }
+    void Swarm::swarmUpdate(){
+        for (int i = 0; i < Swarm::nParticles; i++)
+        {
+            m_pParticles[i].UpdatePartcl();
+        }
+        
+    }
 }

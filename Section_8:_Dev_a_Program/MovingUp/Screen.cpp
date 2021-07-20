@@ -53,8 +53,17 @@ namespace Screen_Maykr
         return true;
     }
 
+    void Screen::clearScrn()
+    {
+        memset(m_buffer, 0, Scrn_Width * Scrn_Height * sizeof(Uint32));
+    }
+
     void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue)
     {
+        if (x < 0 || x >= Scrn_Width || y < 0 || y >= Scrn_Height)
+        {
+            return;
+        }
         Uint32 colour = 0;
 
         colour += red;
