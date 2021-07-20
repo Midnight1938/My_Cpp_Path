@@ -118,8 +118,8 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 67. Adding a Set Pixel Method
 + [X] 68. Animating Colors
 + [X] 69. Creating Particles
-+ [/] 70. Animating Particles
-+ [ ] 71. Creating an Explosion
++ [X] 70. Animating Particles
++ [/] 71. Creating an Explosion
 + [ ] 72. Ensuring Constant Speed
 + [ ] 73. Bitwise "And"
 + [ ] 74. Implementing Box Blur
