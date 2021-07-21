@@ -20,14 +20,14 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 *** Additional Information:
 + All programs contain comments explaining them
 
-+ [[file:Section_8:_Dev_a_Program/Before_We_Begin.org][Before We Begin Programming]]
-+ [[file:Section_8:_Dev_a_Program/CodeInfo.org][Information About the FireParticle Program]]
-+ [[file:Section_10:_Bonus/AboutBonusContent.org][Information Regarding Bonus Content]]
++ [[file:/Section_8:_Dev_a_Program/Before_We_Begin.org][Before We Begin Programming]]
++ [[file:/Section_8:_Dev_a_Program/CodeInfo.org][Information About the FireParticle Program]]
++ [[file:/Section_10:_Bonus/AboutBonusContent.org][Information Regarding Bonus Content]]
 
 *** Whats the difference btwn =++i= and =i++=
 + i++ uses i and then adds one to it.
 + ++i adds one and then uses it.
-+ Refer to [[file:Section_10:_Bonus/Post_And_Prefix/PostAndPrefix.cpp][Post And Prefix program]] for more info
++ Refer to [[file:/Section_10:_Bonus/Post_And_Prefix/PostAndPrefix.cpp][Post And Prefix program]] for more info
 
 ** Wonderful program stash has stuff for the following stuff
 
@@ -35,12 +35,12 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
   * Iniialising Runs is in the site above, we can add lib dependencies in the tasks.json area easily
   * VS Code dependencies (ms-vscode.cpptools-extension-pack)
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_1:_First_steps/][Getting Started]]
+** [[file:/Section_1:_First_steps/][Getting Started]]
 
 + [X] 4. Hello World C++
 + [X] 5. Outputting Text
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_2:_Basic_Syntax/][Basic Syntax]]
+** [[file:/Section_2:_Basic_Syntax/][Basic Syntax]]
 
 + [X] 6. Variables
 + [X] 7. Strings - Working with Text
@@ -64,14 +64,14 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 25. Sizeof Multidimensional Arrays
 + [X] 26. Switches
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_3:_Subroutines/][Subroutines: Reusable Blocks of Code]]
+** [[file:/Section_3:_Subroutines/][Subroutines: Reusable Blocks of Code]]
 
 + [X] 27. Functions
 + [X] 28. Return Values
 + [X] 29. Function Parameters
 + [X] 30. Headers and Prototypes
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_4:_OOP/][Object Oriented Coding]]
+** [[file:/Section_4:_OOP/][Object Oriented Coding]]
 
 + [X] 31. Classes
 + [X] 32. Data Members
@@ -82,7 +82,7 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 37. The "this" Keyword
 + [X] 38. Constructor Initialization Lists
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_5:_Pointers_and_Memory/][Pointers and Memory]]
+** [[file/Section_5:_Pointers_and_Memory/][Pointers and Memory]]
 
 + [X] 39. Pointers
 + [X] 40. Arithmetic
@@ -100,18 +100,18 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 52. Namespaces
 
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_6:_Inheritance/][Inheritance]]
+** [[file:/Section_6:_Inheritance/][Inheritance]]
 
 + [X] 53. Inheritance
 + [X] 54. Encapsulation
 + [X] 55. Constructor Inheritance
 
-[[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_7:_Odds_n_Ends/][Odds and Ends: Twos Complement and Static Variables]]
+[[file:/Section_7:_Odds_n_Ends/][Odds and Ends: Twos Complement and Static Variables]]
 
 + [X] 56. Twos Complement
 + [X] 57. Static Keyword
 
-[[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_8:_Dev_a_Program/][Developing a Program: The Swirly Particle Sim]]
+[[file:/Section_8:_Dev_a_Program/][Developing a Program: The Swirly Particle Sim]]
 
 + [X] 58. Particle Fire Explosion
 + [X] 59. Using C++ Libraries
@@ -194,5 +194,5 @@ Theres a lot that we havent covered. Some important TOPICS
   Always look at programs and simplyfy it as much as possible, put stuff in boxes as much as you want.
 
 + [X] Postfix and Prefix
-+ [[file:Section_10:_Bonus/AboutBonusContent.org::4][Polymorphism]]
-+ [[file:Section_10:_Bonus/AboutBonusContent.org::13][Creating Static Libraries]]
++ [[file:/Section_10:_Bonus/AboutBonusContent.org::4][Polymorphism]]
++ [[file:/Section_10:_Bonus/AboutBonusContent.org::13][Creating Static Libraries]]
