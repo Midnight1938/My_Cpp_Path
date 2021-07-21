@@ -15,10 +15,10 @@ private:
 public:
     Person(); //  Blank Var
 
-    string toString();  // Empty string area
-    string getName();   // Empty string area
+    string toString(); // Empty string area
+    string getName();  // Empty string area
 
-    void setName(string newName); 
+    void setName(string newName);
 };
 
 #endif // PRSN_H_ //

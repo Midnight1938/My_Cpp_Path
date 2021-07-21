@@ -31,8 +31,8 @@ int main()
     //* Using constant ints *//
     int value = 6;
 
-      //? const int * const pValue = &value; 
-     //* a constant pointer to a constant int
+    //? const int * const pValue = &value;
+    //* a constant pointer to a constant int
     //! Makes it completely constant, so the rest will break
 
     int *pValue = &value;

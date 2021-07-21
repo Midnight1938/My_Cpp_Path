@@ -10,21 +10,24 @@ constexpr int Total = 100;
 
 int main()
 {
-    for(int i = 1; i <= Total; i++){
-        if(i%15==0){
-            cout<<"FizzBuzz, ";
-        }
-        else if (i%3==0)
+    for (int i = 1; i <= Total; i++)
+    {
+        if (i % 15 == 0)
         {
-            cout<<"Fizz, ";
+            cout << "FizzBuzz, ";
         }
-        else if(i%5==0){
-            cout<<"Buzz, ";
+        else if (i % 3 == 0)
+        {
+            cout << "Fizz, ";
         }
-        else{
-            cout<<i<<", ";
+        else if (i % 5 == 0)
+        {
+            cout << "Buzz, ";
         }
-        
+        else
+        {
+            cout << i << ", ";
+        }
     }
 
     return 0;

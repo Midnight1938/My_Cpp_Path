@@ -12,13 +12,13 @@ using namespace std;
 int main()
 {
     Person Human;
-    Person otherHuman("Saksham"); // ? This calls the other 
-                                // ? Constructor, (one with Params)
+    Person otherHuman("Saksham"); // ? This calls the other
+                                  // ? Constructor, (one with Params)
 
     Person Friend("Saksham", 17); // ?? This uses Set Method
-                                // ?? ie Via the .Cpp
+                                  // ?? ie Via the .Cpp
 
-    cout << Human.toString()  << endl;
+    cout << Human.toString() << endl;
     cout << otherHuman.toString() << endl;
     cout << Friend.toString() << endl;
 

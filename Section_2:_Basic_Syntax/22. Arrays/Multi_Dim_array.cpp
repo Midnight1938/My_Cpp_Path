@@ -7,10 +7,12 @@ int main()
     string Animols[2][3] = // We can forget the first Index but not second
         {
             {"Dog", "Squirrel", "Monkey"}, // Index 0
-            {"Hyena", "Lion", "Baboon"}}; // Index 1
+            {"Hyena", "Lion", "Baboon"}};  // Index 1
 
-    for(int i=0; i<2; i++){
-        for(int j=0; j<3; j++){
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
             cout << Animols[i][j] << " " << flush;
         }
         cout << endl; // New line "\n" type

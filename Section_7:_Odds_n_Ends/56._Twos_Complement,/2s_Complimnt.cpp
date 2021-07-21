@@ -10,11 +10,11 @@ using namespace std;
 int main()
 {
     char valuu = 127; // Max val
-    
-    cout << "Max value of a char is: \t " <<(int)valuu << endl;
+
+    cout << "Max value of a char is: \t " << (int)valuu << endl;
 
     valuu++; //! +1 to a max value
-    cout << "We added 1 to that and got:\t" << (int)valuu << "\n\nWhich is the smallest value of a char"<< endl;
+    cout << "We added 1 to that and got:\t" << (int)valuu << "\n\nWhich is the smallest value of a char" << endl;
 
     return 0;
 }

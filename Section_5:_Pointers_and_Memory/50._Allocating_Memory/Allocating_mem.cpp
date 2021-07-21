@@ -46,21 +46,21 @@ int main()
 {
     Animal *pAnimal = new Animal[10]; // ! Mem made for 10 Objs
 
-    pAnimal[4].setName("Charles");  //? Name for Instance 4
+    pAnimal[4].setName("Charles"); //? Name for Instance 4
     pAnimal[5].setName("James");   //? Name of Instance 5
     pAnimal[5].speak();
     pAnimal[6].speak(); //? Blank cuz it doesnt exist
 
     delete[] pAnimal; // ? tells it that we are deleting all that we allocated
-                     //? If we dont then we leave n-1 objs behind using up space
+                      //? If we dont then we leave n-1 objs behind using up space
 
     //* Created and deleted 1000 str characters *//
     char *pMem = new char[1000];
     delete[] pMem;
 
     //! An Example for the TODO task
-    char c = 'a';        //? Make a string with a character a
-    c++;                // lol
+    char c = 'a';      //? Make a string with a character a
+    c++;               // lol
     string name(5, c); //? A string with 5 c instances
     cout << name << endl;
 

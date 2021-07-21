@@ -4,16 +4,18 @@
 #include <iostream>
 using namespace std;
 
-namespace cats {
+namespace cats
+{
 
-const string CATNAME = "Foofy";
+	const string CATNAME = "Foofy";
 
-class Cat {
-public:
-	Cat();
-	virtual ~Cat();
-	void speak();
-};
+	class Cat
+	{
+	public:
+		Cat();
+		virtual ~Cat();
+		void speak();
+	};
 
 }
 

@@ -27,7 +27,7 @@ int main()
     Frog froggo("Fred");
 
     // cout << froggo.getName() << endl; //* Wont work as its in Private
-    froggo.info();                      //* But we go via via
+    froggo.info(); //* But we go via via
 
     return 0;
 }

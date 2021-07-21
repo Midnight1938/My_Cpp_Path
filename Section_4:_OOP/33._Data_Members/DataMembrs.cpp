@@ -7,9 +7,10 @@ int main()
 {
     Cat Kit; // ? Using cat conditions with cat named Kit
     Kit.madeHappy();
-    cout << "Kit is Hapy, so it says: " << endl;    
+    cout << "Kit is Hapy, so it says: " << endl;
     Kit.speak();
-    cout << "\n" << endl;
+    cout << "\n"
+         << endl;
 
     Cat Kat; // ? Using cat conditions with cat named Kat
     Kat.madeSad();

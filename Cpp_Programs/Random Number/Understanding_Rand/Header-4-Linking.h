@@ -4,7 +4,8 @@
 #ifndef HEADER4NO_SRAND_H_
 #define HEADER4NO_SRAND_H_
 
-class With_sRand {
+class With_sRand
+{
 public:
   void sRand_Magic();
 };

@@ -8,7 +8,7 @@ int main()
     string Name = "Skshm";
     int Age = 17;
 
-/*
+    /*
 *    string info = "Name: " + Name + "\t Age: " + Age;
 
 !! Cant do this

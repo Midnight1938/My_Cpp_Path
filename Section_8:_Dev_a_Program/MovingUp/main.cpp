@@ -48,7 +48,7 @@ int main()
             Particle particl = pParticles[i];
 
             int x = (particl.m_x + 1) * Screen::Scrn_Width / 2;
-            int y = (particl.m_y) * Screen::Scrn_Width / 2 + (Screen::Scrn_Height/2);
+            int y = (particl.m_y) * Screen::Scrn_Width / 2 + (Screen::Scrn_Height / 2);
             PlayArea.setPixel(x, y, red, green, blue);
         }
 

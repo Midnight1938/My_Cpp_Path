@@ -14,7 +14,7 @@ int main()
          << "16 Bit: " << INT16_MAX << "               " << INT16_MIN << "\n"
          << "8  Bit: " << INT8_MAX << "                 " << INT8_MIN << "\n"
          << endl;
-    
+
     short int val1 = 32767; // !! We specified 16 bit
     cout << "Variable with 16 bit storage: " << val1 << endl;
     int val2 = -2147483648; // !! Its using 32 bit usually

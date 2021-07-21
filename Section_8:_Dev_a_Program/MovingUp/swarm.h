@@ -22,7 +22,7 @@ namespace Screen_Maykr
     virtual ~Swarm();
     void swarmUpdate(int Elapsed);
 
-    const Particle * const getParticles() { return m_pParticles; };
+    const Particle *const getParticles() { return m_pParticles; };
   };
 }
 

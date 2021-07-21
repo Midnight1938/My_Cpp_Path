@@ -10,19 +10,19 @@ using namespace std;
 int main()
 {
     char text[] = "Hellow";
-    int nChars = sizeof(text)-1; //? (7-1)
+    int nChars = sizeof(text) - 1; //? (7-1)
 
-    char *pStart = text; //? A start point
-    char *pEnd = text + nChars -1; //? 0 + (7-1)
+    char *pStart = text;            //? A start point
+    char *pEnd = text + nChars - 1; //? 0 + (7-1)
 
     while (pStart < pEnd)
     {
         char savePt = *pStart; //? Save original state
-        *pStart = *pEnd; //? Swap the two end values
-        *pEnd = savePt; //? set end to the savept
+        *pStart = *pEnd;       //? Swap the two end values
+        *pEnd = savePt;        //? set end to the savept
 
-        pStart ++;
-        pEnd --;
+        pStart++;
+        pEnd--;
     }
 
     cout << text << endl;

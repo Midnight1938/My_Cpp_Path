@@ -4,9 +4,10 @@
 #ifndef CAT_H_
 #define CAT_H_
 
-class Cat {
-private: // ? Because it stays in the whole shenanigin, 
-        // ? It stays here
+class Cat
+{
+private: // ? Because it stays in the whole shenanigin,
+         // ? It stays here
     bool happy;
 
 public: // ? The three conditions we have to work with

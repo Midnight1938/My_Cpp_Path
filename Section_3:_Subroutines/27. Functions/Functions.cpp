@@ -41,6 +41,6 @@ void processSelection()
 int main()
 {
     showMenu();
-    processSelection() :
+    processSelection();
     // ? We used the Function, like 'def'
 }

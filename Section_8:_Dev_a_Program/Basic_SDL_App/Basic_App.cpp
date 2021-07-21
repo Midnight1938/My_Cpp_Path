@@ -58,16 +58,14 @@ int main()
 
     memset(buffer, 0, Scrn_Width * Scrn_Height * sizeof(Uint32)); //? Set all pixels to 255 value (white) in hexadecimal
     //buffer[30000] = 0xFFFFFFFF ; //? 4 Bytes to max, Makes a white pixel lol
-    
-    for (int i = 0; i < Scrn_Width*Scrn_Height; i++)
+
+    for (int i = 0; i < Scrn_Width * Scrn_Height; i++)
     {
         //? Like memset but slow and can control which byte. Hex: 0xBBGGRR
         buffer[i] = 0xFF0000FF; //! Red
         //buffer[i] = 0xFF00FF00; //* Green
         //buffer[i] = 0xFFFF0000; //? Blue
     }
-    
-
 
     SDL_UpdateTexture(Textur, NULL, buffer, Scrn_Width * sizeof(Uint32)); //? Update texture, the whole thing, the data we update it with, Bytes per row
     SDL_RenderClear(Rendrer);                                             //? Clean the board

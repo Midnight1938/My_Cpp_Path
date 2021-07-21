@@ -16,23 +16,22 @@ int main()
 
         if (FBuzz)
         {
-            cout<<"FizzBuzz, ";
+            cout << "FizzBuzz, ";
         }
-        
+
         else if (Fizz)
         {
-            cout<<"Fizz, ";
+            cout << "Fizz, ";
         }
         else if (Buzz)
         {
-            cout<<"Buzz, ";
+            cout << "Buzz, ";
         }
-        else if(!Fizz && !Buzz && !FBuzz)
+        else if (!Fizz && !Buzz && !FBuzz)
         {
-            cout<<i<<", ";
-        }           
+            cout << i << ", ";
+        }
     }
-     
 
     return 0;
 }

@@ -20,15 +20,15 @@ public: //! Making our own Copy Constrctr
         cout << "Animal Named." << endl;
     };
 
-    Animal(const Animal &other): name(other.name)  //! Const used so that the other never changes
-    { //? Other passed as reference
+    Animal(const Animal &other) : name(other.name) //! Const used so that the other never changes
+    {                                              //? Other passed as reference
         cout << "New Animal Named with copy." << endl;
     };
     void setName(string name)
     {
         this->name = name;
     };
-    void speak() const 
+    void speak() const
     {
         cout << "My name is:\t" << name << endl;
     } //? Const because instance data doesnt change

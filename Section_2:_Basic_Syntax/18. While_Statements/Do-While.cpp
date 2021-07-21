@@ -12,7 +12,7 @@ int main()
         Val++;
     } while (Val <= 10); // Checks
 
-// A password Cheker
+    // A password Cheker
 
     const string Password = "Pas5w0rd!"; // Const makes it Global-y
 

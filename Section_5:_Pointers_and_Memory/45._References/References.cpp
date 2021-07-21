@@ -8,8 +8,8 @@ using namespace std;
 */
 
 void ChangedValMachine(double &valuu)
-     //? Without the & in the funciton.
-    //? The 2 variables are seperate.
+//? Without the & in the funciton.
+//? The 2 variables are seperate.
 {
     valuu = 123.4;
 }
@@ -28,7 +28,7 @@ int main()
     double valu = 4.321;
     ChangedValMachine(valu);
 
-    cout << valu << endl; 
+    cout << valu << endl;
 
     return 0;
 }

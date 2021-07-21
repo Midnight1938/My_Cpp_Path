@@ -7,13 +7,13 @@ Cat::Cat() // ? Cat function in Cat class
 {
     cout << "Cat created." << endl;
     // Plays on construction
-    
+
     happy = true;
 }
 
 Cat::~Cat() // ? ~Cat function in Cat class
 {
-    cout << "Cat destroyed." << endl; 
+    cout << "Cat destroyed." << endl;
     // Plays on destruction
 }
 

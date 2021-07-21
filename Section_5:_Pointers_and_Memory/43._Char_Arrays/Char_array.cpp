@@ -12,7 +12,7 @@ TODO []:
 int main()
 {
     char CompText[] = {'H', 'e', 'l', 'l', 'o'}; //? A character Array
-    char text[] = "World!";                     //? Also an array
+    char text[] = "World!";                      //? Also an array
 
     for (int i = 0; i < sizeof(text); i++)
     {

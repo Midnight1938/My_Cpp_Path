@@ -16,15 +16,27 @@ int main()
     cout << "4.\t1 month later." << endl;
     cout << "5.\t1 year later." << endl;
     cout << "6.\t5 years later." << endl;
-    
+
     cout << "Choose the time you want to prepare for it: " << flush;
     int Dura;
     cin >> Dura;
 
-    if(Dura == 6){cout << "\nAlright 5 years lets do this" << endl;}
-    if(Dura == 5){cout << "\nAlright 1 year lets do this" << endl;}
-    if(Dura == 4){cout << "\nAlright 1 month lets do this" << endl;}
-    else{cout << "Youre not strong enough.\nMentally or physically \nYET" << endl;}
+    if (Dura == 6)
+    {
+        cout << "\nAlright 5 years lets do this" << endl;
+    }
+    if (Dura == 5)
+    {
+        cout << "\nAlright 1 year lets do this" << endl;
+    }
+    if (Dura == 4)
+    {
+        cout << "\nAlright 1 month lets do this" << endl;
+    }
+    else
+    {
+        cout << "Youre not strong enough.\nMentally or physically \nYET" << endl;
+    }
 
     return 0;
 }

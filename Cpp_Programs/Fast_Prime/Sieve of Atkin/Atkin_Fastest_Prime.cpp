@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     }
 
     //? The following code just writes the array to a file
-/*    ofstream file;
+    /*    ofstream file;
     char filename[100];
     sprintf(filename, "primes_%d.txt", limit);
     file.open(filename);

@@ -22,8 +22,8 @@ int main()
         Cat Meep;
         Meep.speak();
     } // ? Deallocate the memory here
-    // * Cat Meep; No longer exists 
-    
+    // * Cat Meep; No longer exists
+
     cout << "\nEnding program ..." << endl;
 
     return 0;

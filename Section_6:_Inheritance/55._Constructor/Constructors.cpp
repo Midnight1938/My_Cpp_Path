@@ -27,7 +27,7 @@ public:
 class Plane : public Vehicle
 {
 public:
-    Plane(): Vehicle(789) { cout << "Plane no-Arg constructor called" << endl; } //! Here the No-Arg calls the Vehicle constructor, which calls the Machine Constructor
+    Plane() : Vehicle(789) { cout << "Plane no-Arg constructor called" << endl; } //! Here the No-Arg calls the Vehicle constructor, which calls the Machine Constructor
 };
 
 int main()
@@ -36,7 +36,7 @@ int main()
     Mech.info();
     cout << "\n"
          << endl;
-    
+
     Vehicle Vehic(456); //? We cant call the main constructor with Vehic as is cuz we only defined it in Machine
     Vehic.info();       //? We cant call the main constructor with Vehic as is cuz we only defined it in Machine
     cout << "\n"

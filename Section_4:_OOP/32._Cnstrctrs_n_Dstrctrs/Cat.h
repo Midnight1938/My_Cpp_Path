@@ -12,7 +12,7 @@ private:
 
 public:
     void speak();
-    Cat(); // Constructor
+    Cat();  // Constructor
     ~Cat(); // Destructor
 };
 

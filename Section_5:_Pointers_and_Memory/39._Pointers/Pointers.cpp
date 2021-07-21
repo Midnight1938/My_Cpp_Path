@@ -34,10 +34,10 @@ int main()
 
     cout << "=========================" << endl;
 
-    double dValue=123.4;
+    double dValue = 123.4;
     cout << "\n1. dValue: " << dValue << endl;
     manipulate(&dValue); //Sending the address
     cout << "4. dValue: " << dValue << endl;
-    
+
     return 0;
 }

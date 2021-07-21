@@ -12,11 +12,11 @@ int main()
 
    vector<int> primes = calc_primes(max);
 
- //  for (int i = 0; i < primes.size(); i++)
- //  {
- //     if (primes[i] != 0)
- //        cout << primes[i] << endl;
- //  }
+   //  for (int i = 0; i < primes.size(); i++)
+   //  {
+   //     if (primes[i] != 0)
+   //        cout << primes[i] << endl;
+   //  }
 
    return 0;
 }

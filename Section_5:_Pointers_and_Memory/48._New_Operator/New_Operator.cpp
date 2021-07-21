@@ -52,7 +52,7 @@ int main()
     * The * would work instead of the -> by using (*pCat1) but 
     * the '->' is the syntax, for pointers to obj
     */
-    
+
     delete pCat1;
 
     cout << "Size of pCat1:\t" << sizeof(pCat1) << endl;

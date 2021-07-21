@@ -46,8 +46,8 @@ int main()
     showMenu();
 
     int Selection = getInput();
-    processSelection(Selection); // ? Like a Def, 
-                                // ? but decentralized
+    processSelection(Selection); // ? Like a Def,
+                                 // ? but decentralized
 
     return 0;
 }

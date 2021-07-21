@@ -21,13 +21,13 @@ using namespace std;
 
 int main()
 {
-    int Val1 = 7/2; // ? Cpp always disregards remainder
+    int Val1 = 7 / 2; // ? Cpp always disregards remainder
     cout << "7/2 Makes:\t " << Val1 << endl;
 
-    double Val1_1 = 7.0/2; //? One of them needs to be a float to use the remainder
+    double Val1_1 = 7.0 / 2; //? One of them needs to be a float to use the remainder
     cout << "7.0/2 Makes:\t " << Val1_1 << endl;
-    
-    double Val1_2 = (double)7/2; //? In case they are both variables or something, we can Cast one of them to a double
+
+    double Val1_2 = (double)7 / 2; //? In case they are both variables or something, we can Cast one of them to a double
     cout << "(double)7/2 Makes:\t " << Val1_2 << endl;
 
     int Val2 = (int)7.3; // ? Casted a double to an int
@@ -39,10 +39,10 @@ int main()
     Value3 /= 5;
     cout << "Dividing by 5:\t " << Value3 << endl;
 
-    double equation = 5/3%2+2*6;
+    double equation = 5 / 3 % 2 + 2 * 6;
     cout << "\n5/3%2+2*6 Makes:\t " << equation << endl;
 
-    double equation_bdms = ((5/3)%2)+(2*6); // Though both cases follow BODMAS, this is clearer
+    double equation_bdms = ((5 / 3) % 2) + (2 * 6); // Though both cases follow BODMAS, this is clearer
     cout << "(5/3)%2)+(2*6) Makes:\t " << equation_bdms << endl;
 
     return 0;
