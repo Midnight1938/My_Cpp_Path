@@ -13,8 +13,9 @@ namespace Screen_Maykr
         double m_x;
         double m_y;
 
-        double m_xSpeed = 0.01 * (((2.0 * rand()) / RAND_MAX) - 1);
-        double m_ySpeed = 0.01 * (((2.0 * rand()) / RAND_MAX) - 1);
+        double m_Speed;
+        double m_Direction;
+
 
     public:
         Particle();
