@@ -7,7 +7,7 @@
 *** Normal Libaraies: What we build
 - Preprocessed, Require Compilation (.o), link (.exe, no suffix)
 
-*** [[file:~/Documents/My_Cpp_Path/Section_10:_Bonus/AboutBonusContent.org::13][Static (link) Libraries:]] Files with C++ code
+*** [[file:/Section_10:_Bonus/AboutBonusContent.org::13][Static (link) Libraries:]] Files with C++ code
 + Compiled into a binary file (static Library), which we can link to our program to create an executable with code pre compiled in it
 + Can point to Dynamic Library
 + In Different OS:
