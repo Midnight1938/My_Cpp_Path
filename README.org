@@ -106,12 +106,12 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 54. Encapsulation
 + [X] 55. Constructor Inheritance
 
-[[file:/Section_7:_Odds_n_Ends/][Odds and Ends: Twos Complement and Static Variables]]
+** [[file:/Section_7:_Odds_n_Ends/][Odds and Ends: Twos Complement and Static Variables]]
 
 + [X] 56. Twos Complement
 + [X] 57. Static Keyword
 
-[[file:/Section_8:_Dev_a_Program/][Developing a Program: The Swirly Particle Sim]]
+** [[file:/Section_8:_Dev_a_Program/][Developing a Program: The Swirly Particle Sim]]
 
 + [X] 58. Particle Fire Explosion
 + [X] 59. Using C++ Libraries
