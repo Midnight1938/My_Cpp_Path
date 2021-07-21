@@ -26,15 +26,15 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 ** Wonderful program stash has stuff for the following stuff
 
 + [[https://code.visualstudio.com/docs/cpp/config-linux][Setting Up C++ dependencies in VSCode]]
-  - Initialising Runs is in the site above, we can add lib dependencies in the tasks.json area easily
-  - VS Code dependencies (ms-vscode.cpptools-extension-pack)
+  * Iniialising Runs is in the site above, we can add lib dependencies in the tasks.json area easily
+  * VS Code dependencies (ms-vscode.cpptools-extension-pack)
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_1:_First_steps][Section 1: Getting Started:]]
+** [[file:Section_1:_First_steps/][Getting Started]]
 
 + [X] 4. Hello World C++
 + [X] 5. Outputting Text
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_2:_Basic_Syntax][Section 2: Basic Syntax:]]
+** [[file:Section_2:_Basic_Syntax/][Basic Syntax]]
 
 + [X] 6. Variables
 + [X] 7. Strings - Working with Text
@@ -58,14 +58,14 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 25. Sizeof Multidimensional Arrays
 + [X] 26. Switches
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_3:_Subroutines][Section 3: Subroutines: Reusable Blocks of Code]]
+** [[file:Section_3:_Subroutines/][Subroutines: Reusable Blocks of Code]]
 
 + [X] 27. Functions
 + [X] 28. Return Values
 + [X] 29. Function Parameters
 + [X] 30. Headers and Prototypes
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_4:_OOP][Section 4: Object Oriented Coding:]]
+** [[file:Section_4:_OOP/][Object Oriented Coding]]
 
 + [X] 31. Classes
 + [X] 32. Data Members
@@ -76,7 +76,7 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 37. The "this" Keyword
 + [X] 38. Constructor Initialization Lists
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_5:_Pointers_and_Memory][Section 5: Pointers and Memory:]]
+** [[file:Section_5:_Pointers_and_Memory/][Pointers and Memory]]
 
 + [X] 39. Pointers
 + [X] 40. Arithmetic
@@ -93,18 +93,19 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 51. Arrays and Functions
 + [X] 52. Namespaces
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_6:_Inheritance][Section 6: Inheritance:]]
+
+** [[file:Section_6:_Inheritance/][Inheritance]]
 
 + [X] 53. Inheritance
 + [X] 54. Encapsulation
 + [X] 55. Constructor Inheritance
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_7:_Odds_n_Ends][Section 7: Odds and Ends: Twos Complement and Static Variables]]
+[[file:Section_7:_Odds_n_Ends/][Odds and Ends: Twos Complement and Static Variables]]
 
 + [X] 56. Twos Complement
 + [X] 57. Static Keyword
 
-** [[https://github.com/Midnight1938/My_Cpp_Path/tree/master/Section_8:_Dev_a_Program][Section 8: Developing a Program: The Particle Fire Simulation]]
+[[file:Section_8:_Dev_a_Program/][Developing a Program: The Swirly Particle Sim]]
 
 + [X] 58. Particle Fire Explosion
 + [X] 59. Using C++ Libraries
@@ -125,18 +126,58 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 74. Implementing Box Blur
 + [X] 75. Tweaking Particle Motion
 
-** Section 9: Conclusion:
+** Conclusion:
 
-+ [ ] 76. Languages Overview
-+ [ ] 77. What Next
+*** Languages Overview
+**** C
+Was created in 1973 in Dennis Ritchie.
++ Based on Functions
++ Doesnt use classses and Object orientation was a later Dev
++ Still used today as its faster than C++ as Obj Orientation doesnt make significant difference in some progs.
+  + Used for Low level apps, like Device Drivers
+**** C++
+Created by Bjarne Stroustrup in 1979
++ Added Classes to C, making it Object Oriented
++ Bulked up version of =C=
++ Is it an Anachorism? *No*
+  - We cant do without it. Its still being developed
+    * Latest Stable: <2020-12-15>
+    * Latest Preview: <2021-06-18>
++ Its used to get the most out of the machine
++ Even used to develop Games
+**** Java
+Sun Microsystems now called Oracle made Java in 1995
++ Made on C++
++ A lot of people felt C++ was too hard.
+  * Easy to make bugs
+  * Had to recompile for different systems
++ Has a simulated computer to run its binaries, instead of running it directly on your pc.
+  * Also allows us to run on any pc with Java
++ It is less prone to bugs as the VM does a lot of checking
+  * Can check if you run off the end of an array
+  * Has a garbage collector to auto deallocate Memory
++ Slower as it runs in its own
+**** C#
+Created by Anders Hejlsberg in 2000s under Microsoft /(Microsoft Language, like .NET)/
++ Uses a VM
++ Associated with Microsoft, also used to make websites and games, but closely associated with microsoft
+  + Can also be used on Linux, and Unity game Development
++ Sort of High Level (like Python and Java)
+**** Objective C
+Created by Brad Cox and Tom Love in 1980s while working for Apple
++ Ultimately based on C++
+  * Tied to apple the way C# is tied to Microsoft
++ Uses a lightweight VM too
 
-** Section 10: Bonus:
+*** What Next
+
+** Bonus:
 
 + [ ] 78. Object Oriented Design Considerations
 + [ ] 79. Postfix and Prefix
 + [ ] 80. Polymorphism
 + [ ] 81. Creating Static
 
-** Section 11: Advanced C++!:
+** Advanced C++!:
 
 + [ ] 82. Congratulations, and an Advanced C++ Course
