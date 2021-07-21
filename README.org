@@ -119,11 +119,11 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 68. Animating Colors
 + [X] 69. Creating Particles
 + [X] 70. Animating Particles
-+ [/] 71. Creating an Explosion
-+ [ ] 72. Ensuring Constant Speed
-+ [ ] 73. Bitwise "And"
-+ [ ] 74. Implementing Box Blur
-+ [ ] 75. Tweaking Particle Motion
++ [X] 71. Creating an Explosion
++ [X] 72. Ensuring Constant Speed
++ [X] 73. Bitwise "And"
++ [X] 74. Implementing Box Blur
++ [X] 75. Tweaking Particle Motion
 
 ** Section 9: Conclusion:
 
