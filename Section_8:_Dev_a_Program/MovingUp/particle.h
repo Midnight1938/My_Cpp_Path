@@ -13,9 +13,12 @@ namespace Screen_Maykr
         double m_x;
         double m_y;
 
+    private:
         double m_Speed;
         double m_Direction;
 
+    private:
+        void Init();
 
     public:
         Particle();
