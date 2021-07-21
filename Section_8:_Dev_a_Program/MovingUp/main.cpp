@@ -47,6 +47,11 @@ TODO: Why does it make a box in the bottom right?: Because we told it to range f
 ? * It looks oval because the screen is not a square, the mapping ends up in an oval
 ??? So we set the y in draw particles to width to center it horizontally. 
 ??? Then add half of screen height to center it instead of having it explode on the top center
+
+! We still have an issue where it will run at different speeds on different systems depending on their power. May still be jittery on slow pcs
+* Interval makes it so that the amount we move the particle is proportional to the time passed since we last moved it.
+
+* boxBlur is a type of Blur algorityhm that we used. We take pixel value and set it to the 8 pixels around it. Refer to Screen::boxBlur for more explaination
 */
 
 int main()
@@ -62,15 +67,13 @@ int main()
 
     Swarm particlSwarm;
 
-    int max = 0;
-
     while (true)
     {
         int Run_Elapse = SDL_GetTicks();
 
         //* Update particles
-        PlayArea.clearScrn();
-        particlSwarm.swarmUpdate();
+        //PlayArea.clearScrn(); //? To Blur particles
+        particlSwarm.swarmUpdate(Run_Elapse);
 
         //* Magic Colours
         unsigned char red = (unsigned char)((1 + sin(Run_Elapse * 0.0002)) * 128);
@@ -87,6 +90,9 @@ int main()
             int y = (particl.m_y) * Screen::Scrn_Width / 2 + (Screen::Scrn_Height/2);
             PlayArea.setPixel(x, y, red, green, blue);
         }
+
+        //* Blurring
+        PlayArea.boxBlur();
 
         //* Update Pixels
         PlayArea.Update();

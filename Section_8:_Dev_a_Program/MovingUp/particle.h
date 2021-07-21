@@ -20,7 +20,7 @@ namespace Screen_Maykr
     public:
         Particle();
         virtual ~Particle();
-        void UpdatePartcl();
+        void UpdatePartcl(int Interval);
     };
 }
 #endif

@@ -15,11 +15,12 @@ namespace Screen_Maykr
 
   private:
     Particle *m_pParticles;
+    int lastTime;
 
   public:
     Swarm();
     virtual ~Swarm();
-    void swarmUpdate();
+    void swarmUpdate(int Elapsed);
 
     const Particle * const getParticles() { return m_pParticles; };
   };

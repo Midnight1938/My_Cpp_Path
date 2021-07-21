@@ -3,7 +3,7 @@
 namespace Screen_Maykr
 {
 
-    Swarm::Swarm()
+    Swarm::Swarm() : lastTime(0)
     {
         m_pParticles = new Particle[nParticles];
     }
@@ -11,11 +11,14 @@ namespace Screen_Maykr
     {
         delete[] m_pParticles;
     }
-    void Swarm::swarmUpdate(){
+    void Swarm::swarmUpdate(int Elapsed)
+    {
+        int Interval = Elapsed - lastTime;
+
         for (int i = 0; i < Swarm::nParticles; i++)
         {
-            m_pParticles[i].UpdatePartcl();
+            m_pParticles[i].UpdatePartcl(Interval);
         }
-        
+        lastTime = Elapsed;
     }
 }

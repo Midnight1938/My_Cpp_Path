@@ -20,6 +20,7 @@ namespace Screen_Maykr
         SDL_Renderer *m_rendrer;
         SDL_Texture *m_textur;
         Uint32 *m_buffer;
+        Uint32 *m_bufferBlur;
 
     public:
         Screen();
@@ -27,6 +28,7 @@ namespace Screen_Maykr
         void Update();
         void setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue);
         bool processEvents();
+        void boxBlur();
         void clearScrn();
         void close();
     };

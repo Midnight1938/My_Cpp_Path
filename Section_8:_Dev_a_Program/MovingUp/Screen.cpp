@@ -6,7 +6,7 @@
 
 namespace Screen_Maykr
 {
-    Screen::Screen() : m_windoo(NULL), m_rendrer(NULL), m_textur(NULL), m_buffer(NULL)
+    Screen::Screen() : m_windoo(NULL), m_rendrer(NULL), m_textur(NULL), m_buffer(NULL), m_bufferBlur(NULL)
     {
     }
 
@@ -47,15 +47,12 @@ namespace Screen_Maykr
         }
 
         m_buffer = new Uint32[Scrn_Width * Scrn_Height];
+        m_bufferBlur = new Uint32[Scrn_Width * Scrn_Height];
 
         memset(m_buffer, 0, Scrn_Width * Scrn_Height * sizeof(Uint32));
+        memset(m_bufferBlur, 0, Scrn_Width * Scrn_Height * sizeof(Uint32));
 
         return true;
-    }
-
-    void Screen::clearScrn()
-    {
-        memset(m_buffer, 0, Scrn_Width * Scrn_Height * sizeof(Uint32));
     }
 
     void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue)
@@ -99,9 +96,58 @@ namespace Screen_Maykr
         return true;
     }
 
+    void Screen::boxBlur()
+    {
+        //* Swap buffers so both have pixels and we draw Original
+        Uint32 *tempVar = m_buffer;
+
+        m_buffer = m_bufferBlur;
+        m_bufferBlur = tempVar;
+
+        for (int y = 0; y < Scrn_Height; y++)
+        {
+            for (int x = 0; x < Scrn_Width; x++)
+            {
+                int totalRed = 0;
+                int totalGreen = 0;
+                int totalBlue = 0;
+
+                for (int row = -1; row <= 1; row++)
+                {
+                    for (int col = -1; col <= 1; col++)
+                    {
+                        int currentX = x + col;
+                        int currentY = y + row;
+
+                        if (currentX >= 0 && currentX < Scrn_Width && currentY >= 0 && currentY < Scrn_Height)
+                        {
+                            Uint32 colour = m_bufferBlur[currentY * Scrn_Width + currentX];
+
+                            //? Based on the setColour
+                            Uint8 Red = colour >> 24;
+                            Uint8 Blue = colour >> 16;
+                            Uint8 Green = colour >> 8;
+
+                            totalRed += Red;
+                            totalGreen += Green;
+                            totalBlue += Blue;
+                        }
+                    }
+                }
+                //* Dont have to worry about the Variable collision as the vars only exist in the brackets
+                Uint8 Red = totalRed / 9;
+                Uint8 Green = totalGreen / 9;
+                Uint8 Blue = totalBlue / 9;
+
+                setPixel(x, y, Red, Green, Blue);
+            }
+        }
+    }
+
     void Screen::close()
     {
         delete[] m_buffer;
+        delete[] m_bufferBlur;
         SDL_DestroyRenderer(m_rendrer);
         SDL_DestroyTexture(m_textur);
         SDL_DestroyWindow(m_windoo);
