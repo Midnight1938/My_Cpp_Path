@@ -27,7 +27,7 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 *** Whats the difference btwn =++i= and =i++=
 + i++ uses i and then adds one to it.
 + ++i adds one and then uses it.
-+ Refer to [[file:Section_10:_Bonus/Post_And_Prefix/PostAndPrefix.cpp][PostAndPrefix.cpp]] for more info
++ Refer to [[file:Section_10:_Bonus/Post_And_Prefix/PostAndPrefix.cpp][Post And Prefix program]] for more info
 
 ** Wonderful program stash has stuff for the following stuff
 
