@@ -194,5 +194,5 @@ Theres a lot that we havent covered. Some important TOPICS
   Always look at programs and simplyfy it as much as possible, put stuff in boxes as much as you want.
 
 + [X] Postfix and Prefix
-+ [[file:/Section_10:_Bonus/AboutBonusContent.org::4][Polymorphism]]
-+ [[file:/Section_10:_Bonus/AboutBonusContent.org::13][Creating Static Libraries]]
++ [[file:/Section_10:_Bonus/AboutBonusContent.org#static-libraries][Polymorphism]]
++ [[file:/Section_10:_Bonus/AboutBonusContent.org#Polymorphism][Creating Static Libraries]]
