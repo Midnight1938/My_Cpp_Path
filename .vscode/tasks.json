@@ -9,7 +9,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}", "-lSDL2" // Add libs here
+				"${fileDirname}/${fileBasenameNoExtension}", "-lSDL2 -SFML" // Add libs here
 			],
 			"options": {
 				"cwd": "${fileDirname}"
