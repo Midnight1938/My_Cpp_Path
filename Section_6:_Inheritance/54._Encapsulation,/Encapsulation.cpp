@@ -6,7 +6,7 @@ using namespace std;
 * It means hiding away the instance vars and provide public methods which the user can call
 ? We can have multiple private and public methods. Which can be in any order we want
 ! Keep as much of the class private, to reduce the possibilitry of messing up
-TODO: Make class with private data and medhots, call them in public methods
+TODO: Make class with private data and methods, call them in public methods
 */
 
 class Frog
