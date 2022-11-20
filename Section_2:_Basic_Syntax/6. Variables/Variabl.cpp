@@ -24,6 +24,5 @@ int main()
      cout << " New Sum: " << num_1 + num_2 << endl;
      cout << " New Subt: " << num_1 - num_2 << endl;
      cout << " New Mult: " << num_1 * num_2 << endl;
-     cout << " New Div: " << num_1 / num_2 << "\n"
-          << endl;
+     cout << " New Div: " << num_1 / num_2 << "\n" << endl;
 }

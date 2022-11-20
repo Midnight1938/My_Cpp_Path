@@ -11,7 +11,7 @@ namespace Screen_Maykr
   class Swarm
   {
   public:
-    const static int nParticles = 5000;
+    const static int nParticles = 8000;
 
   private:
     Particle *m_pParticles;

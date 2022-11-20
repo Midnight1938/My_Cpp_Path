@@ -12,8 +12,8 @@ using namespace std;
 using namespace Screen_Maykr;
 
 /*
-* Look at CodingInfo.org for info regarding the Programming Process
-*/
+ * Look at CodingInfo.org for info regarding the Programming Process
+ */
 
 int main()
 {
@@ -33,10 +33,9 @@ int main()
         int Run_Elapse = SDL_GetTicks();
 
         //* Update particles
-        //PlayArea.clearScrn(); //? To Blur particles
+        // PlayArea.clearScrn(); //? To Blur particles
         particlSwarm.swarmUpdate(Run_Elapse);
 
-        //* Magic Colours
         unsigned char red = (unsigned char)((1 + sin(Run_Elapse * 0.0002)) * 128);
         unsigned char blue = (unsigned char)((1 + sin(Run_Elapse * 0.0003)) * 128);
         unsigned char green = (unsigned char)((1 + sin(Run_Elapse * 0.0001)) * 128);
