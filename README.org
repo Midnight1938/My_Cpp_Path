@@ -82,7 +82,7 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 + [X] 37. The "this" Keyword
 + [X] 38. Constructor Initialization Lists
 
-** [[file/Section_5:_Pointers_and_Memory/][Pointers and Memory]]
+** [[file:Section_5:_Pointers_and_Memory/][Pointers and Memory]]
 
 + [X] 39. Pointers
 + [X] 40. Arithmetic
