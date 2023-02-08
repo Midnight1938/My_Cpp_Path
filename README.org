@@ -20,9 +20,9 @@ g++ $File_NAME.cpp -o $File_NAME -lSDL2
 *** Additional Information:
 + All programs contain comments explaining them
 
-+ [[file:/Section_8:_Dev_a_Program/Before_We_Begin.org][Before We Begin Programming]]
-+ [[file:/Section_8:_Dev_a_Program/CodeInfo.org][Information About the FireParticle Program]]
-+ [[file:/Section_10:_Bonus/AboutBonusContent.org][Information Regarding Bonus Content]]
++ [[file:Section_8:_Dev_a_Program/Before_We_Begin.org][Before We Begin Programming]]
++ [[file:Section_8:_Dev_a_Program/CodeInfo.org][Information About the FireParticle Program]]
++ [[file:Section_10:_Bonus/AboutBonusContent.org][Information Regarding Bonus Content]]
 
 *** Whats the difference btwn =++i= and =i++=
 + i++ uses i and then adds one to it.
