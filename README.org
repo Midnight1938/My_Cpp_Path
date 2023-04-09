@@ -1,4 +1,4 @@
-#+title: Learning Path and Important Commands
+#+title: Basic learning Path and Important Commands
 #+author: Skshm
 
 ** Extra Info
