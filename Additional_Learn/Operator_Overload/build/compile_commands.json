@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/midnight/Documents/Dev/Cpp_Stuff/Additional_Learn/build",
-  "command": "/usr/bin/clang++   -g -o CMakeFiles/Operator_Overload.dir/main.cpp.o -c /home/midnight/Documents/Dev/Cpp_Stuff/Additional_Learn/main.cpp",
-  "file": "/home/midnight/Documents/Dev/Cpp_Stuff/Additional_Learn/main.cpp",
-  "output": "CMakeFiles/Operator_Overload.dir/main.cpp.o"
-}
-]
