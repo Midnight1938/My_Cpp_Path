@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -rdynamic CMakeFiles/Transform_Function.dir/main.cpp.o -o Transform_Function 

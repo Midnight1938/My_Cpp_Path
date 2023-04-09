@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build",
+  "command": "/usr/bin/clang++   -g -o CMakeFiles/Learn_Clang.dir/main.cpp.o -c /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/main.cpp",
+  "file": "/home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/main.cpp",
+  "output": "CMakeFiles/Learn_Clang.dir/main.cpp.o"
+}
+]
