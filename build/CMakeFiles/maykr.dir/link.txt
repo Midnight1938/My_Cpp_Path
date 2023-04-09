@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -rdynamic CMakeFiles/maykr.dir/main.cpp.o -o maykr 
