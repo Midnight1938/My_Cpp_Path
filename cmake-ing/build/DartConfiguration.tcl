@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path
-BuildDirectory: /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build
+SourceDirectory: /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing
+BuildDirectory: /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path"
+ConfigureCommand: "/usr/bin/cmake" "/home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/bin/git
+GITCommand: 
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,9 +58,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/bin/git
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
 Compiler: /usr/bin/clang++

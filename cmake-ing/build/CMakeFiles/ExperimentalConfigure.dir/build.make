@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path
+CMAKE_SOURCE_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build
+CMAKE_BINARY_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build
 
 # Utility rule file for ExperimentalConfigure.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalConfigure.dir/clean:
 .PHONY : CMakeFiles/ExperimentalConfigure.dir/clean
 
 CMakeFiles/ExperimentalConfigure.dir/depend:
-	cd /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalConfigure.dir/depend
 

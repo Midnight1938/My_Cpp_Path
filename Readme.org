@@ -1,3 +1,9 @@
-#+TITLE: Extra Functions
+#+TITLE: Package Managers for C++
+#+DATE: <2023-04-09 Sun>
 
-* Sources
+* Options
+- Vcpkg
+- Conan
+
+* Sources to test
+- [[https:matogames.com/vcpkg-vs-conan-for-cpp][Picking the Manager]]

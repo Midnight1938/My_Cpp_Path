@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path
+CMAKE_SOURCE_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build
+CMAKE_BINARY_DIR = /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -117,9 +117,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build/CMakeFiles /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build/CMakeFiles /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -511,24 +511,24 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named Learn_Clang
+# Target rules for targets named maykr
 
 # Build rule for target.
-Learn_Clang: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Learn_Clang
-.PHONY : Learn_Clang
+maykr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maykr
+.PHONY : maykr
 
 # fast build rule for target.
-Learn_Clang/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_Clang.dir/build.make CMakeFiles/Learn_Clang.dir/build
-.PHONY : Learn_Clang/fast
+maykr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maykr.dir/build.make CMakeFiles/maykr.dir/build
+.PHONY : maykr/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_Clang.dir/build.make CMakeFiles/Learn_Clang.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maykr.dir/build.make CMakeFiles/maykr.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -536,7 +536,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_Clang.dir/build.make CMakeFiles/Learn_Clang.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maykr.dir/build.make CMakeFiles/maykr.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -544,7 +544,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_Clang.dir/build.make CMakeFiles/Learn_Clang.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maykr.dir/build.make CMakeFiles/maykr.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -586,7 +586,7 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... Learn_Clang"
+	@echo "... maykr"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

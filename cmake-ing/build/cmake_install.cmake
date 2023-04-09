@@ -1,4 +1,4 @@
-# Install script for directory: /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path
+# Install script for directory: /home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/midnight/Documents/Dev/Cpp_Stuff/My_Cpp_Path/cmake-ing/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
